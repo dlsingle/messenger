@@ -1,0 +1,47 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-avatar class="avatar-sm ion-margin-start">
+        <img src="assets/img/avatars/7.jpg" alt="">
+      </ion-avatar>
+    </ion-buttons>
+
+    <ion-title>Контакты</ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="segmentView" class="full-width">
+      <ion-segment-button value="active">
+        <ion-label>В сети (12)</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="story">
+        <ion-label>Все (123)</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div *ngIf="segmentView === 'active'">
+    <ion-list>
+      <ion-list-header class="list-header-custom">
+        В СЕТИ
+      </ion-list-header>
+      <ion-item
+        class="chat-item"
+        [class.unread]="i < 4"
+        *ngFor="let i of [1,2,3,4,5,6,7,8,9,10,11,12]"
+      >
+        <ion-avatar class="avatar-md has-status" slot="start">
+          <img src="assets/img/avatars/{{i}}.jpg" alt="">
+          <div class="avatar-status">
+            <div class="online-status active"></div>
+          </div>
+        </ion-avatar>
+        <ion-label>
+          <h2><strong>Имя друга {{i}}</strong></h2>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

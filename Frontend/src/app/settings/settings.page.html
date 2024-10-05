@@ -1,0 +1,57 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button color="dark" (click)="closeModal()">
+        Готово
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding ion-text-center">
+    <ion-avatar class="avatar-lg">
+      <img src="assets/img/avatars/7.jpg" alt="">
+    </ion-avatar>
+    <h3><strong>Моё имя</strong></h3>
+  </div>
+
+  <ion-list>
+    <ion-item detail>
+      <ion-icon name="checkmark-done-circle" color="success" slot="start"></ion-icon>
+      <ion-label>
+        Активный статус
+      </ion-label>
+      <ion-note slot="end">Вкл</ion-note>
+    </ion-item>
+    <ion-item detail lines="none">
+      <ion-icon name="call" color="primary" slot="start"></ion-icon>
+      <ion-label>
+        Мобильный телефон
+      </ion-label>
+    </ion-item>
+
+    <ion-list-header class="list-header-custom">
+      Персонализация
+    </ion-list-header>
+    <ion-item detail>
+      <ion-icon name="notifications-circle" color="tertiary" slot="start"></ion-icon>
+      <ion-label>
+        Уведомления и звук
+      </ion-label>
+      <ion-note slot="end">Вкл</ion-note>
+    </ion-item>
+    <ion-item detail>
+      <ion-icon name="people" color="tertiary" slot="start"></ion-icon>
+      <ion-label>
+        Контакты
+      </ion-label>
+    </ion-item>
+    <ion-item detail>
+      <ion-icon name="chatbubble" color="primary" slot="start"></ion-icon>
+      <ion-label>
+        Настройки чатов
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
