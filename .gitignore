@@ -21,6 +21,7 @@ Frontend/.project
 *.sublime-workspace
 
 # Visual Studio Code
+/Frontend/.vscode/
 /Frontend/.vscode/*
 !/Frontend/.vscode/settings.json
 !/Frontend/.vscode/tasks.json
