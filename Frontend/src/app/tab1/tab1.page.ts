@@ -11,9 +11,9 @@ export class Tab1Page {
 
   constructor(public modalCtrl: ModalController, private routerOutlet: IonRouterOutlet) { }
 
-  /*ngOnInit() {
+  ngOnInit() {
 
-  }*/
+  }
 
   async openSettings() {
     const modal = await this.modalCtrl.create({

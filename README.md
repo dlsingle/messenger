@@ -1,4 +1,4 @@
-# messenger
+# Messenger
 
 ## Setup
 
@@ -7,11 +7,11 @@ Clone or download this project.
 Install dependencies
 
 ```
-$ cd <project>
+$ cd <project/Frontend>
 $ npm install
 ```
 
 Run the app on Localhost
 ```
-$ npm start
+$ ionic serve
 ```
