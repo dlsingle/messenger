@@ -1,0 +1,3 @@
+[submodule "Frontend_Messenger"]
+	path = Frontend_Messenger
+	url = https://github.com/CandyPopsWorld/Frontend_Messenger
