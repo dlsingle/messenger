@@ -1,3 +1,6 @@
 [submodule "Frontend_Messenger"]
 	path = Frontend_Messenger
 	url = https://github.com/CandyPopsWorld/Frontend_Messenger
+[submodule "messenger-backend"]
+	path = messenger-backend
+	url = https://github.com/ShavelSoSmetanoi/messenger-backend
