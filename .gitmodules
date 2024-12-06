@@ -4,3 +4,6 @@
 [submodule "messenger-backend"]
 	path = messenger-backend
 	url = https://github.com/ShavelSoSmetanoi/messenger-backend
+[submodule "messenger-documentation"]
+	path = messenger-documentation
+	url = https://github.com/Kuan67-sml/messenger-documentation.git
