@@ -7,3 +7,6 @@
 [submodule "messenger-documentation"]
 	path = messenger-documentation
 	url = https://github.com/Kuan67-sml/messenger-documentation.git
+[submodule "messenger-testing"]
+	path = messenger-testing
+	url = https://github.com/dlsingle/messenger-testing.git
